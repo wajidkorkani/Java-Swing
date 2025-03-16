@@ -10,6 +10,16 @@ public class App {
         frame.setLayout(new FlowLayout());
 
         // Create UI components
+        JButton btn0 = new JButton("0");
+        JButton btn1 = new JButton("1");
+        JButton btn2 = new JButton("2");
+        JButton btn3 = new JButton("3");
+        JButton btn4 = new JButton("4");
+        JButton btn5 = new JButton("5");
+        JButton btn6 = new JButton("6");
+        JButton btn7 = new JButton("7");
+        JButton btn8 = new JButton("8");
+        JButton btn9 = new JButton("9");
         JButton button = new JButton("Add");
         JLabel label = new JLabel("Result: ");
         JTextField inputOne = new JTextField(20);
@@ -25,6 +35,16 @@ public class App {
         frame.getContentPane().add(button);
         frame.getContentPane().add(label);
         frame.getContentPane().add(inputThree);
+        frame.getContentPane().add(btn0);
+        frame.getContentPane().add(btn1);
+        frame.getContentPane().add(btn2);
+        frame.getContentPane().add(btn3);
+        frame.getContentPane().add(btn4);
+        frame.getContentPane().add(btn5);
+        frame.getContentPane().add(btn6);
+        frame.getContentPane().add(btn7);
+        frame.getContentPane().add(btn8);
+        frame.getContentPane().add(btn9);
 
         // Add action listener to the button
         button.addActionListener(ae -> {
